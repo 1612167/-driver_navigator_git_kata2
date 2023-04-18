@@ -6,6 +6,6 @@ def load_passengers():
     df = pd.read_csv('data/titanic.csv')
 
     # Select only the female passengers
-    female_passengers = df[df['Sex'] == 'female']
+    female_passengers = df[df['Sex'] == 'male']
 
     return female_passengers
